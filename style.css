@@ -334,6 +334,14 @@ a {
          margin-right: 8px;
         }
      }
+
+     @media (max-width: 1500px) {
+        .about-text {
+         margin-right: 2%;
+         margin-left: 2%;
+        }
+     }
+
      @media (max-width: 800px) {
         .footer p {
          margin-left: 2%;

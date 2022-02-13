@@ -27,3 +27,5 @@ https://daniel-designer.github.io/Daniel-R.-V2/
 - Add more sections
 
 - Cleanup code
+
+- Tests on mobile devices

@@ -176,17 +176,28 @@ a {
     color: white;
 }
 
-.responsive {
-    display: block;
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-    background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translateY(50%);
-  }
-  
+.welcome{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.welcome h1{
+    color: black;
+    font-size: 6em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.welcome h3{
+    color: black;
+    font-size:1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 5;
+}
+
   .footer{
       height: 20em;
       width: 100%;

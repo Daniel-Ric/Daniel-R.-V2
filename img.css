@@ -1,3 +1,8 @@
+.show{
+   margin-left: 2%;
+   margin-right: 2%;
+}
+
 #gallery {
     line-height:0;
     -webkit-column-count:5; /* split it into 5 columns */
@@ -19,7 +24,7 @@
 
 #gallery img:hover{
     filter: grayscale(0);
-    
+    filter:drop-shadow(1)
 }
 
  @media (max-width: 1200px) {

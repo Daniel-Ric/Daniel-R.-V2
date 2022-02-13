@@ -18,15 +18,8 @@
     height: auto !important;
     margin-bottom:5px; /* to match column gap */
     padding: 3px;
-    filter: grayscale(1);
-    transition: filter 0.4s;
  }
-
-#gallery img:hover{
-    filter: grayscale(0);
-    filter:drop-shadow(1)
-}
-
+ 
  @media (max-width: 1200px) {
     #gallery {
      -moz-column-count:    4;

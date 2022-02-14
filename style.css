@@ -23,6 +23,25 @@ body {
 
 .timeline{
     background-color: #000;
+    padding-bottom: 4%;
+}
+
+.skillarea{
+    background-color: #000;
+    padding-bottom: 4%;
+}
+
+.skills{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.skill h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
 }
 
 .time h1{
@@ -97,23 +116,6 @@ body {
     position: absolute;
 }
 
-.skillarea{
-    background-color: #000;
-}
-
-.skills{
-    margin-left: 30%;
-    margin-right: 30%;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-.skill h1{
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-}
-
 .parent {
     height: 100vh;
     display: flex;
@@ -127,6 +129,7 @@ body {
 
 .info{
     background-color: #000;
+    padding-bottom: 4%;
 }
 li {
     list-style: none;
@@ -329,13 +332,6 @@ a {
     color: #fa5c4f;
 }
 
-@media (max-width:1000px) {
-    .skills{
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-    }
-
   @media (max-width: 768px) { /*breakpoint*/
     .section {
       float: none;
@@ -385,6 +381,13 @@ a {
         }
      }
 
+     @media (max-width:1000px) {
+        .skills{
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        }
+
 @media only screen and (max-width: 948px) {
     .nav-menu {
         position: fixed;
@@ -393,7 +396,7 @@ a {
         z-index: 1;
         top: 0rem;
         background: rgb(27,27,27);
-        background: linear-gradient(270deg,rgba(0, 0, 0, 0.238) 10%, rgba(0, 0, 0, 0.238) 10%, rgb(0, 0, 0) 95%);
+        background: linear-gradient(270deg,rgba(27,27,27,0.23831070889894423) 25%, rgba(27,27,27,0.23831070889894423) 10%, rgba(94,94,94,1) 95%);
         width: 100%;
         text-align: left;
         height: 100vh;
@@ -413,9 +416,11 @@ a {
     }
 
     .nav-item a {
-        font-size: 140%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex: auto;
     }
-}
+
     .hamburger {
         display: block;
         cursor: pointer;
@@ -436,3 +441,4 @@ a {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+}

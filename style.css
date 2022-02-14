@@ -266,7 +266,7 @@ a {
  .footer-menu{
     float: right;
   }
-  
+
   .footer-menu ul{
     display: flex;
   }
@@ -368,7 +368,8 @@ a {
         flex-direction: column;
         z-index: 1;
         top: 0rem;
-        background-color: rgb(94, 94, 94);
+        background: rgb(27,27,27);
+        background: linear-gradient(270deg,rgba(0, 0, 0, 0.238) 10%, rgba(0, 0, 0, 0.238) 10%, rgb(0, 0, 0) 95%);
         width: 100%;
         text-align: left;
         height: 100vh;
@@ -387,6 +388,10 @@ a {
         flex: auto;
     }
 
+    .nav-item a {
+        font-size: 140%;
+    }
+}
     .hamburger {
         display: block;
         cursor: pointer;
@@ -407,4 +412,3 @@ a {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-}

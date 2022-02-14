@@ -139,7 +139,7 @@ a {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #101010;
+    background-color: #ffffff;
 }
 
 .nav-menu {
@@ -365,12 +365,13 @@ a {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 5rem;
         flex-direction: column;
         z-index: 1;
-        background-color: rgb(63, 63, 63);
+        top: 0rem;
+        background-color: rgb(94, 94, 94);
         width: 100%;
-        text-align: center;
+        text-align: left;
+        height: 100vh;
         transition: 0.3s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
@@ -381,14 +382,17 @@ a {
     }
 
     .nav-item {
-        margin: 2.5rem 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex: auto;
     }
 
     .hamburger {
         display: block;
         cursor: pointer;
-        position: relative;
-        margin-left: auto;
+        position: fixed;
+        left: 90%;
+        z-index: 1000;
     }
 
 

@@ -97,6 +97,23 @@ body {
     position: absolute;
 }
 
+.skillarea{
+    background-color: #000;
+}
+
+.skills{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.skill h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
 .parent {
     height: 100vh;
     display: flex;
@@ -311,6 +328,13 @@ a {
 .socials a:hover i{
     color: #fa5c4f;
 }
+
+@media (max-width:1000px) {
+    .skills{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    }
 
   @media (max-width: 768px) { /*breakpoint*/
     .section {

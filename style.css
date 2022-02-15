@@ -123,11 +123,11 @@ body {
     position: absolute;
 }
 
-.parent {
+.blend-parent {
     height: 100vh;
     display: flex;
   }
-  .child {
+  .blend-child {
     height: 5em;
     width: 100%;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 97%);

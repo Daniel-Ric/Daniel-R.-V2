@@ -368,13 +368,13 @@ a {
         }
      }
 
-     @media (max-width: 800px),  (orientation: landscape) {
+     @media (max-width: 800px),  (orientation: portrait) {
         .welcome h1 {
          font-size: 3.1em;
         }
      }
 
-     @media (max-width: 800px),  (orientation: landscape) {
+     @media (max-width: 800px),  (orientation: portrait) {
         .welcome h3 {
          font-size: 1.1em;
         }

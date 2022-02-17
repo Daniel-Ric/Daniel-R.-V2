@@ -374,6 +374,24 @@ a {
         }
      }
 
+     @media (max-width: 1400px) {
+        .welcome h1 {
+         font-size: 3.1em;
+        }
+     }
+
+     @media (max-width: 1400px) {
+        .welcome h3 {
+         font-size: 1.1em;
+        }
+     }
+
+     @media (max-width: 800px) {
+        .time {
+         margin-right: 8px;
+        }
+     }
+
      @media (max-width: 1500px) {
         .about-text {
          margin-right: 2%;
